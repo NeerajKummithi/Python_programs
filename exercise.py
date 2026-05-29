@@ -5,12 +5,14 @@
 # BMI=int(wt/ht**2)
 # print("Your BMI is: ",BMI)
 
+# ==========================================================================================================================================================
 #EXERCISE 5
 # age=int(input("enter your age= "))
 # a=(100-age)*365
 # b=(100-age)*52
 # c=(100-age)*12
 # print(f"You have {a} days , {b} weeks ,{c} months left")
+# ==========================================================================================================================================================
 
 #EXERCISE 6 - (Check whether given number is even or odd)
 # x=int(input("Enetr a number= "))
@@ -18,6 +20,7 @@
 #     print("x is even")
 # else:
 #     print("x is odd")    
+# ==========================================================================================================================================================
 
 #EXERCISE 7 
 # wt=int(input("Enter your weight in kilograms= "))
@@ -33,14 +36,16 @@
 #     print(f"Your BMI is {BMI} and you are Obese")
 # else:
 #     print("Invalid Input")   
-# 
+# ==========================================================================================================================================================
+
 # EXERCISE 8 -(whether given year is leap year or not)
 # year=int(input("Enter the year= "))
 # if(year%4==0 and year%100!=0 )or( year%400==0):
 #     print(f"{year} is a Leap year")
 # else:
 #     print(f"{year} is  not a Leap year")    
-         
+# ==========================================================================================================================================================
+   
 #EXERCISE 9 -(Pizza order program)
 # order=int(input("Select your pizza \n Pizza Type \t\t Cost in Rs. \n 1.Small pizza  \t 100 \n 2.Medium pizza \t 200 \n 3.Large pizza  \t 300 \n choice= "))
 # bill=0
@@ -77,31 +82,31 @@
 
 # print(f"Your total bill is Rs.{bill}")
 
-
 # print("Thank You 🙏 Visit Again")                              
-
+# ==========================================================================================================================================================
 
 #EXERCISE 10 - (LOVE CALCULATOR)
 
-B=input("Enter the boy name = ")
-G=input("Enter the girl name = ")
+# B=input("Enter the boy name = ")
+# G=input("Enter the girl name = ")
 
-b=B.lower()
-g=G.lower()
+# b=B.lower()
+# g=G.lower()
 
-T=b.count("t")+g.count("t")
-R=b.count("r")+g.count("r")
-U=b.count("u")+g.count("u")
-E1=b.count("e")+g.count("e")
-L=b.count("l")+g.count("l")
-O=b.count("o")+g.count("o")
-V=b.count("v")+g.count("v")
-E2=b.count("e")+g.count("e")
+# T=b.count("t")+g.count("t")
+# R=b.count("r")+g.count("r")
+# U=b.count("u")+g.count("u")
+# E1=b.count("e")+g.count("e")
+# L=b.count("l")+g.count("l")
+# O=b.count("o")+g.count("o")
+# V=b.count("v")+g.count("v")
+# E2=b.count("e")+g.count("e")
 
-true=T+R+U+E1
-love=L+O+V+E2
+# true=T+R+U+E1
+# love=L+O+V+E2
 
-print(f"Percentage of love between {B} and {G} is {true}{love}%")
+# print(f"Percentage of love between {B} and {G} is {true}{love}%")
+# ==========================================================================================================================================================
 
 
 
