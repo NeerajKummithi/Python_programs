@@ -43,3 +43,13 @@
 
 # print(num.pop()) # if no value entered the last element is pop out
 # print(num.pop(4)) # element at index 4 is popped out
+
+#NESTED LISTS
+
+list1=[10,35,55,[15,-9,56],5,22]
+# print(len(list1))
+# print(list1[3][2])
+# print(list1[len(list1)-2])
+
+print(list1[3][0:2])#slicing
+

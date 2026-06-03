@@ -1,12 +1,12 @@
 
-#EXERCISE 4 - BMI
+# EXERCISE 4 - BMI
 # wt=int(input("Enter your weight in kilograms= "))
 # ht=float(input("Enter your height in meters= "))
 # BMI=int(wt/ht**2)
 # print("Your BMI is: ",BMI)
 
 # ==========================================================================================================================================================
-#EXERCISE 5
+# EXERCISE 5
 # age=int(input("enter your age= "))
 # a=(100-age)*365
 # b=(100-age)*52
@@ -14,7 +14,7 @@
 # print(f"You have {a} days , {b} weeks ,{c} months left")
 # ==========================================================================================================================================================
 
-#EXERCISE 6 - (Check whether given number is even or odd)
+# EXERCISE 6 - (Check whether given number is even or odd)
 # x=int(input("Enetr a number= "))
 # if(x%2==0):
 #     print("x is even")
@@ -22,7 +22,7 @@
 #     print("x is odd")    
 # ==========================================================================================================================================================
 
-#EXERCISE 7 
+# EXERCISE 7 
 # wt=int(input("Enter your weight in kilograms= "))
 # ht=float(input("Enter your height in meters= "))
 # BMI=int(wt/ht**2)
@@ -46,7 +46,7 @@
 #     print(f"{year} is  not a Leap year")    
 # ==========================================================================================================================================================
    
-#EXERCISE 9 -(Pizza order program)
+# EXERCISE 9 -(Pizza order program)
 # order=int(input("Select your pizza \n Pizza Type \t\t Cost in Rs. \n 1.Small pizza  \t 100 \n 2.Medium pizza \t 200 \n 3.Large pizza  \t 300 \n choice= "))
 # bill=0
 
@@ -85,7 +85,7 @@
 # print("Thank You 🙏 Visit Again")                              
 # ==========================================================================================================================================================
 
-#EXERCISE 10 - (LOVE CALCULATOR)
+# EXERCISE 10 - (LOVE CALCULATOR)
 
 # B=input("Enter the boy name = ")
 # G=input("Enter the girl name = ")
@@ -108,6 +108,27 @@
 # print(f"Percentage of love between {B} and {G} is {true}{love}%")
 # ==========================================================================================================================================================
 
+# EXERCISE 11 - (HEADS OR TAILS)
 
+# import random
 
+# l=['heads','tails']
+# result=random.choice(l)
+# print(result)
 
+# ==========================================================================================================================================================
+
+# EXERCISE 12 
+# WRITE A PROGRAM WHICH SELECT A RANDOM NAME FROM A LIST OF NAMES & THE PERSON SELECTED WILL HAVE TO PAY FOR EVERYBODY'S FOOD BILL.
+
+# import random  
+
+# names=list(input("Enter your names with commas: ").split(","))
+# # print(random.choice(names))
+# n=len(names)
+# result=random.randrange(0,n)
+# print(names[result])
+
+# ==========================================================================================================================================================
+
+# EXERCISE 13
