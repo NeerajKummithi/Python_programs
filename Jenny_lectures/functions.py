@@ -65,3 +65,24 @@
 #     print(f"My name is {name} , {age} years old and living in {city}")
 
 # info(name="Neeraj",age=20,city="Anantapuram")
+
+#=====================================================================
+
+# functions with return statement 
+
+# def add(a,b):
+#     return a+b
+# result=add(5,5)
+# print(result)    
+
+#=====================================================================
+
+#functions with multiple return values
+
+# import statistics
+
+# def mean_mode_median(list1):
+#     return statistics.mean(list1),statistics.median(list1),statistics.mode(list1)
+
+# a,b,c=mean_mode_median([56,54,92,15,36,25])
+# print(f"Mean is {a} , Median is {b} , Mode is {c}")    
